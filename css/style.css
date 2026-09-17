@@ -50,7 +50,7 @@ img { max-width: 100%; display: block; }
 .btn-ghost:hover { border-color: #fff; background: rgba(255, 255, 255, .1); }
 .btn-soft { background: #fff; color: var(--ink); border-color: var(--line); }
 .btn-soft:hover { border-color: var(--ink); }
-.btn-sm { padding: 10px 20px; font-size: 13px; }
+.btn-sm { padding: 13px 20px; font-size: 13px; }
 .btn-block { width: 100%; justify-content: center; }
 
 /* ---- Top bar ---- */
