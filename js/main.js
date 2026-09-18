@@ -88,9 +88,9 @@
   }
 
   /* ---------- WhatsApp contact form ---------- */
-  var WA_NUMBER = "923165661622";
+  // contact via email (phone removed)
   var openWhatsApp = function (text) {
-    window.open("https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(text), "_blank", "noopener");
+    window.open("mailto:info@ironforgefitness.pk?subject=Enquiry&body=" + encodeURIComponent(text), "_blank");
   };
 
   var form = document.getElementById("contact-form");
